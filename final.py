@@ -52,8 +52,13 @@ st.markdown("""
 
 
 # Search bar with autocomplete suggestions
+<<<<<<< HEAD
 movies = movies[movies['year'] > 2007]
 
+=======
+
+movies = movies.loc[:16000]
+>>>>>>> 0d0341bc82ba3f8ff36c49eda377cc377dc11ace
 search_query = st.text_input(label="Search for a movie", value="", key="search")
 
 # Filtering suggestions based on the entered search query

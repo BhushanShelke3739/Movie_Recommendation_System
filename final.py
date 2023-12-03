@@ -52,7 +52,7 @@ st.markdown("""
 
 
 # Search bar with autocomplete suggestions
-
+movies = movies[movies['year'] > 2007]
 
 search_query = st.text_input(label="Search for a movie", value="", key="search")
 

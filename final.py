@@ -53,7 +53,7 @@ st.markdown("""
 
 # Search bar with autocomplete suggestions
 
-movies = movies.loc[:18000]
+movies = movies.loc[:16000]
 search_query = st.text_input(label="Search for a movie", value="", key="search")
 
 # Filtering suggestions based on the entered search query

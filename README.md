@@ -40,6 +40,11 @@ The "Generate Random Recommendations" button provides random movie recommendatio
 
 ![](https://github.com/BhushanShelke3739/Movie_Recommendation_System/blob/master/down.gif)
 
+![image](https://github.com/BhushanShelke3739/Movie_Recommendation_System/assets/83290382/0e76f665-1543-4e9d-b47d-62388d385192)
+
+![image](https://github.com/BhushanShelke3739/Movie_Recommendation_System/assets/83290382/a30df11f-365a-478e-9e60-9fa05b31574a)
+
+
 ## Error Handling
 The code includes error handling to manage KeyError and MemoryError exceptions that may occur during recommendation generation.
 

@@ -54,7 +54,7 @@ st.markdown("""
 # Search bar with autocomplete suggestions
 
 
-movies = movies[movies['year'] > 2008]
+movies = movies[movies['year'] > 2009]
 
 
 

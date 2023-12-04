@@ -11,6 +11,7 @@ import random
 
     
 movies = pd.read_csv("./joined4.csv")
+movies = movies[movies['year'] > 2009]
 movies = movies.drop('Unnamed: 0', axis=1)
 
 # Use local CSS
@@ -54,7 +55,7 @@ st.markdown("""
 # Search bar with autocomplete suggestions
 
 
-movies = movies[movies['year'] > 2009]
+
 
 
 

@@ -11,7 +11,7 @@ import random
 
     
 movies = pd.read_csv("./joined4.csv")
-movies = movies[movies['year'] > 2009]
+movies = movies[movies['year'] > 2009].reset_index()
 movies = movies.drop('Unnamed: 0', axis=1)
 
 # Use local CSS
@@ -50,13 +50,6 @@ st.markdown("""
     Movie Recommendation based on plot
 </h1>
 """, unsafe_allow_html=True)
-
-
-# Search bar with autocomplete suggestions
-
-
-
-
 
 
 #movies = movies.loc[:16000]

@@ -49,7 +49,7 @@ The "Generate Random Recommendations" button provides random movie recommendatio
 The code includes error handling to manage KeyError and MemoryError exceptions that may occur during recommendation generation.
 
 ## Limitations and Future Improvements
-- The dataset is limited to the first 16,000 rows for performance reasons.
+- The dataset is limited to the rows with year > 2009 for performance reasons.
 - The application may encounter MemoryError for larger datasets; optimizations are required.
 - The recommendation algorithm can be further improved with advanced techniques.
 - Feel free to explore and enhance this movie recommendation system!

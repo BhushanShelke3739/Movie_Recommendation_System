@@ -11,7 +11,7 @@ import random
 
     
 movies = pd.read_csv("./joined4.csv")
-movies = movies[movies['year'] > 2009].reset_index()
+
 movies = movies.drop('Unnamed: 0', axis=1)
 
 # Use local CSS
@@ -51,7 +51,7 @@ st.markdown("""
 </h1>
 """, unsafe_allow_html=True)
 
-
+movies = movies[movies['year'] > 2009].reset_index()
 #movies = movies.loc[:16000]
 
 search_query = st.text_input(label="Search for a movie", value="", key="search")

@@ -54,7 +54,7 @@ st.markdown("""
 movies = movies[movies['year'] > 2009].reset_index()
 #movies = movies.loc[:16000]
 
-search_query = st.text_input(label="Search for a movie", value="", key="search")
+search_query = st.text_input(label="Enter the keyword of the movie title and select the results from the dropdown below!", value="", key="search")
 
 # Filtering suggestions based on the entered search query
 
